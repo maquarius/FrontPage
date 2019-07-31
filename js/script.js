@@ -29,17 +29,17 @@ function setBgGreet () {
 
     if (hour < 12) {
         //morning
-        document.body.style.backgroundImage = "url('../img/beautiful-color-dawn-217114.jpg')";
+        document.body.style.backgroundImage = "url('./img/beautiful-color-dawn-217114.jpg')";
         greeting.textContent = "Good Morning" ;
 
     }   else if (hour < 18){
         //afternoon
-        document.body.style.backgroundImage = "url('../img/blue-sky-buildings-coconut-trees-196663.jpg')";
+        document.body.style.backgroundImage = "url('./img/blue-sky-buildings-coconut-trees-196663.jpg')";
         greeting.textContent = "Good Afternoon" ;
 
     } else {
         //Evening
-        document.body.style.backgroundImage = "url('../img/astronomy-astrophotography-calm-1542493.jpg')";
+        document.body.style.backgroundImage = "url('./img/astronomy-astrophotography-calm-1542493.jpg')";
         greeting.textContent = "Good Evening" ;
         document.body.style.color = "white";
 
